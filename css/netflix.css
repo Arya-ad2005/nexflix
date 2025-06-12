@@ -1,0 +1,38 @@
+ .header{
+      position: relative;
+    height: 630px;
+    overflow: hidden;
+     }
+   .bg-layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./netflex5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.content-layer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.logo{
+    margin-left: 100px;
+    margin-top:0px;
+    height: 150px;
+    width:200px;
+    
+}
+p{
+ margin-left: 600px;
+ margin margin-top: 600px;
+}
